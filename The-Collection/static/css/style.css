@@ -1,0 +1,48 @@
+/*General*/
+html {
+  background-color: #FFFFFF;
+  font-family: 'Basic', sans-serif;
+  color: #F8F8FF;
+}
+header, footer, main, nav {
+  box-shadow: 0px 0px 50px rgba(34,34,34,0.75);
+  width: 95%;
+  margin: 20px auto 20px auto;
+  background-color: #343434;
+}
+/*Text Styling*/
+p {
+  text-align: justify;
+  padding: 10px;
+}
+h1 {
+  font-family: 'Bahiana', cursive;
+  font-size: 10vw;
+  margin: 10px;
+}
+/*Navigation*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+li a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+li a:hover {
+  background-color: #636363;
+}
+/*Main*/
+main {
+  color: FFFFFF;
+}
+/*Footer*/
+footer {
+    text-align: center;
+}
